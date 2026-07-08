@@ -1,0 +1,26 @@
+name: lan_chess
+description: Offline LAN multiplayer chess (no internet, no server, no login)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  chess: ^0.8.1
+  web_socket_channel: ^2.4.0
+  shelf: ^1.4.1
+  shelf_web_socket: ^1.0.4
+  bonsoir: ^5.1.1
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
